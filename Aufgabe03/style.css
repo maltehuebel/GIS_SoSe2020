@@ -1,0 +1,145 @@
+body{
+    background-image: url("bg.png");
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aktuell{
+    color: white;
+}
+.form{
+    width: 790px;
+    height: 790px;
+    margin-top: -500px;
+    margin-left: auto;
+    margin-right: auto;   
+    border-radius: 300px;
+    border-style: solid;
+    border-color:grey;
+    background-color: rgb(59, 141, 235);
+    box-shadow: 5px 5px 5px grey;
+}
+.form h1{
+    color: white;
+    font-size: 60px;
+    padding-top: 500px;
+    text-shadow:  -2px 0 grey, 0 2px grey, 2px 0 grey, 0 -2px grey;
+}
+.form #mailbild{
+    width: 57px;
+}
+.form #mailbild:hover{
+    width: 62px;
+}
+nav{
+    position: sticky;
+    top: 5px;
+    margin-top: 20px;
+    margin-left: 450px;
+    font-size: 20px;
+    background-color: grey;
+    width: 300px;
+    color: blue;
+}
+nav a{
+    color:blue;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+}
+.medien{
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgb(128, 128, 128, 0.3);
+    box-shadow: 5px 5px 5px grey;
+    
+}
+.medienüberschrift{
+    padding-right: 650px;
+    color: rgb(59, 141, 235); 
+}
+/*.videos{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 20px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgb(128, 128, 128, 0.3);
+    box-shadow: 5px 5px 5px grey;
+}
+#videos{
+    padding-right: 700px;
+    color: rgb(59, 141, 235); 
+}
+.audio{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 20px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgb(128, 128, 128, 0.3);
+    box-shadow: 5px 5px 5px grey;
+}
+#audio{
+    padding-right: 700px;
+    color: rgb(59, 141, 235); 
+}*/
+.medien audio{
+    width: 500px;
+}
+#malte{
+    padding-right: 450px;
+    color: rgb(59, 141, 235);
+}
+.social_media{
+    margin-left: 500px;
+    margin-right: 500px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgb(128, 128, 128, 0.3);
+    box-shadow: 5px 5px 5px grey;
+}
+.contact{
+    color: grey;
+    font-size: smaller;
+}
+.contact #button{
+    color: white;
+    background-color: rgb(128, 128, 128, 0.5);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+.contact input{
+    background-color: rgb(179, 178, 178);
+    color: white;
+}
+.contact textarea{
+    background-color: rgb(179, 178, 178);
+    color: white;
+}
+#about_me_text{
+    color: rgb(59, 141, 235)
+}
+#snapicon:hover{
+    background-color: rgb(104, 104, 104)
+}
+#instaicon:hover{
+    background-color:rgb(104, 104, 104);
+}
+#mailicon:hover{
+    background-color: rgb(104, 104, 104);
+}
