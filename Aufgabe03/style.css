@@ -42,6 +42,7 @@ nav{
     background-color: grey;
     width: 300px;
     color: blue;
+    z-index: 100;
 }
 nav a{
     color:blue;
