@@ -124,6 +124,13 @@ div>div:hover{
     color: rgb(247, 140, 140);
     transform: scale(1.1);
 }
+.artikel{
+    display: inline-grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 250px 250px 250px 250px;
+  
+
+}
 
 @media screen and (max-width: 600px){
     h1{
@@ -177,6 +184,7 @@ div>div:hover{
     #einkaufswagen{
         width: 15px;
     }
+
     .tasteninstrumente{
         width: 150px;
         height: 250px;
@@ -187,6 +195,11 @@ div>div:hover{
     .tasteninstrumente input{
         width: 100px;
         font-size: 7px;
+    }
+    .artikel{
+        display: inline-grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto;
     }
     p{
         font-size: 10px;
@@ -242,6 +255,11 @@ div>div:hover{
         font-size: 20px;
         
     }
+    .artikel{
+        display: inline-grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto auto;
+    }
     .blasinstrumente img{
         width: 100px;
     }
@@ -288,6 +306,12 @@ div>div:hover{
     div div{
         width: auto;
         height: auto;
+    }
+    .artikel{
+        display: inline-grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 250px 250px 250px 250px;
+      
     }
  
     .blasinstrumente img{
