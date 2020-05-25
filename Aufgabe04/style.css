@@ -114,13 +114,13 @@ div>div:hover{
     transform: scale(1.1);
     transition-duration: 0.4s;
 }
-#in_den_einkaufswagen{
+.in_den_einkaufswagen{
     color: white;
     background-color: rgb(83, 83, 241);
     transition-duration: 0.2s;
     cursor: pointer;
 }
-#in_den_einkaufswagen:hover{
+.in_den_einkaufswagen:hover{
     color: rgb(247, 140, 140);
     transform: scale(1.1);
 }
