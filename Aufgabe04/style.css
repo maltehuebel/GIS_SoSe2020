@@ -2,7 +2,8 @@ body{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url(noten.jpg);
-    background-size: 200px ;
+    background-size: 200px;
+    width: auto;
 }
 .position::before {
     display: block;
@@ -27,6 +28,9 @@ a{
     top: 7%;
     left: 18%;
     width: 75px;
+}
+#freddie{
+    width: 1024px;
 }
 #logo{
     display: inline-block;
@@ -101,6 +105,10 @@ h2{
     border-color: rgb(83, 83, 241);
     background: rgb(230, 228, 228);
     box-shadow: 3px 3px 3px rgb(203, 203, 253);
+    width: auto;
+}
+.tasteninstrumente img{
+    width: auto
 }
 .blasinstrumente{
     display: inline-block;
@@ -111,6 +119,7 @@ h2{
     border-color: rgb(83, 83, 241);
     background: rgb(230, 228, 228);
     box-shadow: 3px 3px 3px rgb(203, 203, 253);
+    width: auto;
 }
 div>div:hover{
     transform: scale(1.1);
@@ -130,7 +139,6 @@ div>div:hover{
     display: inline-grid;
     grid-template-rows: auto auto;
     grid-template-columns: 250px 250px 250px 250px;
-  
 
 }
 
@@ -163,10 +171,10 @@ div>div:hover{
         z-index: 100;
     }
     #freddie{
-        width: 550px;
+        width: 400px;
     }
     #menubar{
-        width: 550px;
+        width: auto;
         height: 80px;
         z-index: 90;
     }
@@ -188,16 +196,12 @@ div>div:hover{
     #einkaufswagen{
         width: 15px;
     }
-
-    .tasteninstrumente{
-        width: 150px;
-        height: 250px;
-    }
     .tasteninstrumente img{
-        width: 120px;
+        width: 50px;
     }
     .tasteninstrumente input{
-        width: 100px;
+        width: auto;
+        height: auto;
         font-size: 7px;
     }
     .artikel{
@@ -208,15 +212,11 @@ div>div:hover{
     p{
         font-size: 10px;
     }
-    .blasinstrumente{
-        width: 150px;
-        height: 250px;
-    }
     .blasinstrumente img{
-        width: 120px;
+        width: 50px;
     }
     .blasinstrumente input{
-        width: 100px;
+        width: auto;
         font-size: 7px;
     }
 }
