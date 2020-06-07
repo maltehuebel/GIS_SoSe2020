@@ -64,5 +64,7 @@ for (let index: number = 0; index < instrumente.length; index++) {
     document.getElementById("at" + index)?.appendChild(newButton);
     newButton.value = "In den Einkaufswagen";
     newButton.type = "submit";
+   
 }
+
 }
