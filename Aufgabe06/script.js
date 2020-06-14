@@ -38,7 +38,7 @@ var Aufgabe06;
         newBeschreibung.innerHTML = instrumente[index].beschreibung;
         document.getElementById("at" + index)?.appendChild(newBeschreibung);
         let newPreis = document.createElement("p");
-        newPreis.innerHTML = "<hr><p>" + instrumente[index].preis + " €</p></hr>";
+        newPreis.innerHTML = "<hr><p>" + instrumente[index].preis + " €</p>";
         document.getElementById("at" + index)?.appendChild(newPreis);
         let newButton = document.createElement("input");
         newButton.setAttribute("class", "in_den_einkaufswagen");

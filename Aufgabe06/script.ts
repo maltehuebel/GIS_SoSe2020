@@ -56,7 +56,7 @@ namespace Aufgabe06 {
     
         let newPreis: HTMLElement = document.createElement("p");
     
-        newPreis.innerHTML = "<hr><p>" + instrumente[index].preis + " €</p></hr>";
+        newPreis.innerHTML = "<hr><p>" + instrumente[index].preis + " €</p>";
         document.getElementById("at" + index)?.appendChild(newPreis);
     
         let newButton: HTMLInputElement = document.createElement("input");
