@@ -17,6 +17,8 @@ console.log(instrumente);
 
 seitenaufbau();
 
+
+
 function seitenaufbau(): void {
 
     for (let index: number = 0; index < instrumente.length; index++) {
