@@ -56,7 +56,7 @@ function seitenaufbau(): void {
         let newButton: HTMLInputElement = document.createElement("input");
         newButton.setAttribute("class", "in_den_einkaufswagen");
         document.getElementById("at" + index)?.appendChild(newButton);
-        newButton.value = "In den Einkaufswagen";
+        newButton.value = "Entfernen";
         newButton.type = "submit";
         newButton.addEventListener("click", entfernen.bind(instrumente[index]));
         newButton.setAttribute("index", index.toString());
