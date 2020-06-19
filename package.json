@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node Aufgabe08/server.js"
+    "start": "node Aufgabe08neu/server.js"
   },
   "author": "malte",
   "license": "ISC",
