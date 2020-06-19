@@ -22,5 +22,20 @@ var A08Server;
         _response.write(_request.url);
         _response.end();
     }
+    let senden = document.getElementById("senden");
+    senden.addEventListener("click", lelesenden);
+    async function lelesenden() {
+        let formData = new FormData(document.forms[0]);
+        console.log((formData.get("name")));
+        for (let entry of formData) {
+            console.log(entry);
+            console.log("name: " + entry[0]);
+            console.log("value: " + entry[1]);
+        }
+        let url = "https://gismalteshesh.herokuapp.com/";
+        let query = new URLSearchParams(formData);
+        url = url + "?" + query.toString();
+        await fetch(url);
+    }
 })(A08Server = exports.A08Server || (exports.A08Server = {}));
 //# sourceMappingURL=server.js.map
