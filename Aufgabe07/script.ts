@@ -90,6 +90,8 @@ namespace Aufgabe07 {
     let preis: number = 0;
     //let anzahldiv: HTMLElement = document.createElement("div");
     let anzahl: HTMLElement = document.createElement("p");
+
+    let warenkorb: Artikel[] = new Array;
     anzahl.setAttribute("id", "artikelzaehler");
 
     document.getElementById("ti_listener")?.addEventListener("click", verstecken1);
@@ -116,10 +118,14 @@ namespace Aufgabe07 {
         //(<HTMLElement>document.getElementById("ti_artikel")).innerHTML = localStorage.getItem("name")!;
         //document.getElementById("ti_artikel")?.appendChild(newDiv);
 
+        warenkorb.push(this);
+        localStorage.setItem("name", JSON.stringify(warenkorb));
+        
 
-        localStorage.setItem("name", this.name);
+
+        //localStorage.setItem("name", this.name);
         //localStorage.setItem("preis", (<HTMLInputElement>_event.target)?.getAttribute("preis")!);
-        console.log(localStorage);
+        //console.log(localStorage);
         //(<HTMLElement>document.getElementById("bi_artikel")).innerHTML = localStorage.getItem("name")!;
         //console.log(localStorage);
 

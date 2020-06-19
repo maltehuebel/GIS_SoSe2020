@@ -59,6 +59,7 @@ var Aufgabe07;
     let preis = 0;
     //let anzahldiv: HTMLElement = document.createElement("div");
     let anzahl = document.createElement("p");
+    let warenkorb = new Array;
     anzahl.setAttribute("id", "artikelzaehler");
     document.getElementById("ti_listener")?.addEventListener("click", verstecken1);
     document.getElementById("bi_listener")?.addEventListener("click", verstecken2);
@@ -77,9 +78,11 @@ var Aufgabe07;
         //document.getElementById("ti_artikel")
         //(<HTMLElement>document.getElementById("ti_artikel")).innerHTML = localStorage.getItem("name")!;
         //document.getElementById("ti_artikel")?.appendChild(newDiv);
-        localStorage.setItem("name", this.name);
+        warenkorb.push(this);
+        localStorage.setItem("name", JSON.stringify(warenkorb));
+        //localStorage.setItem("name", this.name);
         //localStorage.setItem("preis", (<HTMLInputElement>_event.target)?.getAttribute("preis")!);
-        console.log(localStorage);
+        //console.log(localStorage);
         //(<HTMLElement>document.getElementById("bi_artikel")).innerHTML = localStorage.getItem("name")!;
         //console.log(localStorage);
     }
