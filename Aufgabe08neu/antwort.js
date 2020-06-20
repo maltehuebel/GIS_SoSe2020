@@ -3,7 +3,7 @@ let knepp = document.getElementById("hammer_knopf");
 knepp.addEventListener("click", ausgeben);
 async function ausgeben(_event) {
     let formData = new FormData(document.forms[0]);
-    let url = "https://gismalteshesh.herokuapp.com/";
+    let url = "https://gis-example.herokuapp.com";
     let query = new URLSearchParams(formData);
     url = url + "?" + query.toString();
     await fetch(url);
