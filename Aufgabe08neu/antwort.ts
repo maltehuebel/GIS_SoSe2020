@@ -1,4 +1,4 @@
-let knepp: HTMLElement = <HTMLElement>document.getElementById("hammerknopf");
+let knepp: HTMLElement = <HTMLElement>document?.getElementById("hammerknopf");
 knepp.addEventListener("click", ausgeben);
 
 async function ausgeben(_event: Event): Promise<void> {

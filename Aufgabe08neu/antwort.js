@@ -1,5 +1,5 @@
 "use strict";
-let knepp = document.getElementById("hammerknopf");
+let knepp = document?.getElementById("hammerknopf");
 knepp.addEventListener("click", ausgeben);
 async function ausgeben(_event) {
     let formData = new FormData(document.forms[0]);
