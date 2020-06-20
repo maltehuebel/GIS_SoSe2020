@@ -74,7 +74,7 @@ for (let index: number = 0; index < instrumente.length; index++) {
     gesamtPreis += instrumente[index].preis;
 }
 let gesPr = document.createElement("h2");
-gesPr.id = "scheißpreis"
+gesPr.id = "scheißpreis";
 gesPr.innerHTML = "Preis: " + gesamtPreis.toString() + "€";
 document.getElementById("gesamtPreis")?.appendChild(gesPr);
 
@@ -92,7 +92,6 @@ function alleEntfernen(this: Artikel, _event: Event): void {
     document.getElementById("gesamtPreis")?.appendChild(gesPr);
 
     document.getElementById("scheißpreis")?.remove();
-
 }
 
 
