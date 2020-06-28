@@ -4,7 +4,7 @@ var Aufgabe09;
     async function ausgebenjson(_event) {
         let formData = new FormData(document.forms[0]);
         let query = new URLSearchParams(formData);
-        let url = "http://localhost:8100";
+        let url = "https://gismalteshesh.herokuapp.com";
         url = url + "/json";
         url = url + "?" + query.toString();
         //console.log(query.toString());
@@ -18,7 +18,7 @@ var Aufgabe09;
     async function ausgebenhtml(_event) {
         let formData = new FormData(document.forms[0]);
         let query = new URLSearchParams(formData);
-        let url = "http://localhost:8100";
+        let url = "https://gismalteshesh.herokuapp.com";
         url = url + "/html";
         url = url + "?" + query.toString();
         //console.log(query.toString());
