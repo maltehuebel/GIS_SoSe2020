@@ -9,8 +9,8 @@ namespace Aufgabe11 {
         url = url + "/datenbank";
         url = url + "?" + query.toString();
         let response: Response = await fetch(url);
-        let responseText: string = await response.json();
-        console.log(responseText);
+        //let responseText: string = await response.json();
+        //console.log(responseText);
     }
 
     async function ausgebenhtml(_event: Event): Promise<void> {

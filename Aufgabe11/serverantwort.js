@@ -8,8 +8,8 @@ var Aufgabe11;
         url = url + "/datenbank";
         url = url + "?" + query.toString();
         let response = await fetch(url);
-        let responseText = await response.json();
-        console.log(responseText);
+        //let responseText: string = await response.json();
+        //console.log(responseText);
     }
     async function ausgebenhtml(_event) {
         let formData = new FormData(document.forms[0]);
