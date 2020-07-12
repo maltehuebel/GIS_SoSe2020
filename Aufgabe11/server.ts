@@ -11,7 +11,7 @@ export namespace Aufgabe11Server {
     let port: number = Number(process.env.PORT);
     if (!port)
         port = 8100;
-    let databaseUrl: string = "https://mongodbnetbrowser.herokuapp.com/?u=malte123&p=malte123&a=malte-gis-cluster-shesh-4nz0w.mongodb.net&n=Test&c=Students";
+    let databaseUrl: string = "//mongodb+srv://malte123:malte123@malte-gis-cluster-shesh-4nz0w.mongodb.net/Daten?retryWrites=true&w=majority";
     startServer(port);
     connectToDatabase(databaseUrl);
 

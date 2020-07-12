@@ -5,7 +5,7 @@ namespace Aufgabe11 {
     async function datenbank(_event: Event): Promise<void> {
         let formData: FormData = new FormData(document.forms[0]);
         let query: URLSearchParams = new URLSearchParams(<any>formData);
-        let url: string = "https://mongodbnetbrowser.herokuapp.com/?u=malte123&p=malte123&a=malte-gis-cluster-shesh-4nz0w.mongodb.net&n=Test&c=Students";
+        let url: string = "//https://gismalteshesh.herokuapp.com/";
         url = url + "/datenbank";
         url = url + "?" + query.toString();
         let response: Response = await fetch(url);
@@ -16,7 +16,7 @@ namespace Aufgabe11 {
     async function ausgebenhtml(_event: Event): Promise<void> {
         let formData: FormData = new FormData(document.forms[0]);
         let query: URLSearchParams = new URLSearchParams(<any>formData);
-        let url: string = "https://mongodbnetbrowser.herokuapp.com/?u=malte123&p=malte123&a=malte-gis-cluster-shesh-4nz0w.mongodb.net&n=Test&c=Students";
+        let url: string = "//https://gismalteshesh.herokuapp.com/";
         url = url + "/back";
         url = url + "?" + query.toString();
         let response: Response = await fetch(url);
