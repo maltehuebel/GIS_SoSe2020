@@ -10,14 +10,14 @@ var Aufgabe11Server;
     let port = Number(process.env.PORT);
     if (!port)
         port = 8100;
-    let databaseUrl = "mongodb+srv://malte123:malte123@malte-gis-cluster-shesh-4nz0w.mongodb.net/Test?retryWrites=true&w=majority";
+    let databaseUrl = "mongodb+srv://malte123:malte123@malte-gis-cluster-shesh-4nz0w.mongodb.net/Students?retryWrites=true&w=majority";
     startServer(port);
     connectToDatabase(databaseUrl);
     async function connectToDatabase(_url) {
         let options = { useNewUrlParser: true, useUnifiedTopology: true };
         let mongoClient = new Mongo.MongoClient(_url, options);
         await mongoClient.connect();
-        kommtRein = mongoClient.db("Test").collection("Students");
+        kommtRein = mongoClient.db("Daten").collection("Students");
         console.log("Datenbank verbunden: ", kommtRein != undefined);
     }
     function startServer(_port) {
