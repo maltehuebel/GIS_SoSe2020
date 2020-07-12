@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="serverantwort.js" defer></script>
+</head>
+
+<body>
+
+    <form name="form" action="//https://gismalteshesh.herokuapp.com/" method="GET">
+        Gib mir deinen
+        <input type="text" name="fname" placeholder="Name">
+        <br><br>
+        Und auch deinen
+        <input type="text" name="fnachname" placeholder="Nachname">
+        <br><br>
+        <label for="cool">Bist du hammer</label>
+        <select id="cool" name="cool">
+            <option value="ja">Na sicher</option>
+            <option value="nein">Ich weiß nicht genau</option>
+            <option value="vielleicht">Nee lass mal...</option>
+        </select>
+        <br>
+            <p>Was willst du</p>
+            <input type="radio" id="1" name="bier" value="eins">
+            <label for="1">Ein Bier</label><br>
+            <input type="radio" id="female" name="bier" value="zwei">
+            <label for="female">Zwei Bier</label><br>
+            <input type="radio" id="other" name="bier" value="alle">
+            <label for="other">Alle Bier</label>
+            <br><br>
+        <button id="jsonformat" type="button">Ab zur Datenbank</button>
+        <button id="htmlformat" type="button">Komm zurück</button>
+        
+    </form>
+    <br><br>
+    <div id="serverantwortdiv"></div>
+
+
+</body>
+
+</html>
