@@ -4,7 +4,7 @@ var Aufgabe11;
     async function datenbank(_event) {
         let formData = new FormData(document.forms[0]);
         let query = new URLSearchParams(formData);
-        let url = "//https://gismalteshesh.herokuapp.com/";
+        let url = "//https://gismalteshesh.herokuapp.com";
         url = url + "/datenbank";
         url = url + "?" + query.toString();
         let response = await fetch(url);
@@ -14,7 +14,7 @@ var Aufgabe11;
     async function ausgebenhtml(_event) {
         let formData = new FormData(document.forms[0]);
         let query = new URLSearchParams(formData);
-        let url = "//https://gismalteshesh.herokuapp.com/";
+        let url = "//https://gismalteshesh.herokuapp.com";
         url = url + "/back";
         url = url + "?" + query.toString();
         let response = await fetch(url);
