@@ -11,7 +11,7 @@ export namespace Aufgabe11Server {
     let port: number = Number(process.env.PORT);
     if (!port)
         port = 8100;
-    let databaseUrl: string = "mongodb+srv://malte123:malte123@malte-gis-cluster-shesh-4nz0w.mongodb.net/Students?retryWrites=true&w=majority";
+    let databaseUrl: string = "mongodb+srv://malte123:malte123@malte-gis-cluster-shesh-4nz0w.mongodb.net/Test?retryWrites=true&w=majority";
     startServer(port);
     connectToDatabase(databaseUrl);
 
