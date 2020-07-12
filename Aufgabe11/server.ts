@@ -19,7 +19,7 @@ export namespace Aufgabe11Server {
         let options: Mongo.MongoClientOptions = { useNewUrlParser: true, useUnifiedTopology: true };
         let mongoClient: Mongo.MongoClient = new Mongo.MongoClient(_url, options);
         await mongoClient.connect();
-        kommtRein = mongoClient.db("Daten").collection("Studenten");
+        kommtRein = mongoClient.db("Test").collection("Students");
         console.log("Datenbank verbunden: ", kommtRein != undefined);
     }
     function startServer(_port: number | string): void {

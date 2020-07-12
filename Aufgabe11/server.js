@@ -17,7 +17,7 @@ var Aufgabe11Server;
         let options = { useNewUrlParser: true, useUnifiedTopology: true };
         let mongoClient = new Mongo.MongoClient(_url, options);
         await mongoClient.connect();
-        kommtRein = mongoClient.db("Daten").collection("Studenten");
+        kommtRein = mongoClient.db("Test").collection("Students");
         console.log("Datenbank verbunden: ", kommtRein != undefined);
     }
     function startServer(_port) {
