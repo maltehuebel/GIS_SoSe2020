@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warenkorb</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="warenkorb.js" defer></script>
+    <script src="serverantowort.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Warenkorb</h1>
+    </header>
+    <main>
+        <form id="formular" action="http://localhost:8100/" method="GET">
+            <input type="text" name="fname" placeholder="Name">
+            <br>
+            <input type="text" name="fnachname" placeholder="Nachname">
+            <br>
+            <input type="text" name="fadresse" placeholder="Adresse">
+            <br>
+            <input type="submit" id="send" value="Bestellen">
+        </form>
+        <secrtion>
+            <div id="gesamtPreis"></div>
+            <div id="eis"></div>
+            <br>
+            <input id="alleEntfernen" type="button" value="Alle entfernen">
+        </secrtion>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>

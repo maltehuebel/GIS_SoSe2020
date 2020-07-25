@@ -1,0 +1,535 @@
+body { 
+    text-align: center;
+    background-color: #f5f0e1;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+main {
+    background-color: #f5f0e1;
+    width: 1300px;
+    margin: auto;
+}
+#navbar{
+    display: inline-block;
+    position: sticky;
+    top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    width: 1000px;
+    height: 75px;
+    margin-bottom: 20px;
+}
+#navcontent{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+}
+h1 {
+    color: #1e3d59;
+    text-align: center;
+    font-size: 100px;
+}
+#eis {
+    display: inline-grid;
+    grid-template-rows:  auto auto auto;
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #2e3e52;
+}
+#waffeln{
+    display: inline-grid;
+    grid-template-rows:  auto auto auto;
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #2e3e52;
+}
+#topping{
+    display: inline-grid;
+    grid-template-rows:  auto auto auto;
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #2e3e52;
+}
+#eis p{
+    font-weight: bold;
+    margin-top: 0;
+    color: #f5f0e1;
+}
+#waffeln p {
+    font-weight: bold;
+     margin-top: 0;
+     color: #f5f0e1;
+}
+#topping p {
+    font-weight: bold;
+    margin-top: 0;
+    color: #f5f0e1;
+}
+.eisdiv{
+    background-color: #1e3d59;
+    border: #2e3e52;
+    border-style: solid;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px grey;
+}
+.eisdiv input{
+    margin-bottom: 15px;
+    width: 150px;
+    border-radius: 20px;
+}
+#eisbild{
+    display: inline-block;
+    margin: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: white;
+}
+#cart{
+    color: #1e3d59;
+    display: block;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    position: sticky;
+    top: 100px;
+    margin-bottom: 20px;
+    border: black;
+    border-style: solid;
+}
+#cart>#cartgrid {
+    display: inline-grid;
+    grid-template-rows:  auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+#cart p {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 5px;
+}
+#cart input{
+    margin-bottom: 20px;
+    background-color: #ffc13b;
+    color: #1e3d59;
+    width: 200px;
+    height: 25px;
+}
+#cartbild{
+    width: 75px;
+}
+#eisbutton{
+    background-color: #ffc13b;
+    color: #1e3d59;
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 12px;
+}
+
+#waffelbutton{
+    background-color: #ffc13b;
+    color: #1e3d59;
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 12px;
+}
+#toppingbutton{
+    background-color: #ffc13b;
+    color: #1e3d59;
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 12px;
+}
+#bestellenbutton{
+    background-color: #1e3d59;
+    color: #ffc13b;
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 12px;
+}
+ h2{
+     color: #1e3d59;
+     font-size: 40px;
+ }
+ #alleEntfernen{
+    background-color: #ffc13b;
+    color: #1e3d59;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    font-size: medium;
+ }
+ #formular {
+    padding-top: 20px;
+}
+#formular input{
+    width: 300px;
+    margin: 7px;
+}
+#send {
+    background-color: #ffc13b;
+    color: #1e3d59;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    font-size: medium;
+}
+.händlerbutton{
+    margin-right: 1700px;    
+}
+#händlergrid{
+    display: inline-grid;
+    grid-template-rows:  auto auto auto;
+    grid-row-gap: 40px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #2e3e52;
+}
+#händlergrid p{
+    font-weight: bold;
+    margin-top: 0;
+    color: #f5f0e1;
+}
+#händlergrid input {
+    width: 30px;
+}
+#händlerdiv{
+    background-color: #1e3d59;
+    border: #2e3e52;
+    border-style: solid;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px grey;
+}
+#händlerbild{
+    display: inline-block;
+    margin: 15px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: white;
+}
+#entfernen{
+    background-color: #ffc13b;
+    color: #1e3d59;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+@media screen and (max-width: 1024px){
+    
+    h1 {
+        color: #1e3d59;
+        text-align: center;
+        font-size: 45px;
+    }
+    #navbar{
+        display: inline-block;
+        position: sticky;
+        top: 20px;
+        background-color: white;
+        width: 500px;
+        height: 75px;
+        margin-bottom: 20px;   
+    }
+    #eisbutton{
+        background-color: #ffc13b;
+        color: #1e3d59;
+        font-size: small;
+        width: 100px;
+        height: 50px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+        border-width: 1px;
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 10px;  
+    }
+    #waffelbutton{
+        background-color: #ffc13b;
+        color: #1e3d59;
+        font-size: small;
+        width: 100px;
+        height: 50px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        border-radius: 20px;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #toppingbutton{
+        background-color: #ffc13b;
+        color: #1e3d59;
+        font-size: small;
+        width: 100px;
+        height: 50px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+        border-width: 1px;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #bestellenbutton{
+        background-color: #1e3d59;
+        color: #ffc13b;
+        font-size: small;
+        width: 100px;
+        height: 50px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+        border-width: 1px;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #eis {
+        display: inline-grid;
+        grid-template-rows:  auto auto auto;
+        grid-row-gap: 30px;
+        grid-column-gap: 20px;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        margin-top: 20px;
+        color: #2e3e52;
+    }
+    #waffeln{
+        display: inline-grid;
+        grid-template-rows:  auto auto auto;
+        grid-row-gap: 30px;
+        grid-column-gap: 20px;
+        grid-template-columns: auto auto;
+        text-align: center;
+        margin-top: 20px;
+        color: #2e3e52;
+    }
+    #topping{
+        display: inline-grid;
+        grid-template-rows:  auto auto auto;
+        grid-row-gap: 30px;
+        grid-column-gap: 20px;
+        grid-template-columns: auto auto;
+        text-align: center;
+        margin-top: 20px;
+        color: #2e3e52;
+    }
+    main{
+        border-radius: 50px;
+        width: 700px;
+        margin: auto;
+    }
+    #eisbild{
+        display: inline-block;
+        margin: 30px;
+        width: 100px;
+        background-color: white
+    }
+    #cart{
+        color: #1e3d59;
+        display: block;
+        width: 450px;
+        margin: auto;
+        background-color: white;
+        position: sticky;
+        top: 100px;
+        margin-bottom: 20px;
+        border: black;
+        border-style: solid;
+    }
+    .eisdiv input{
+        margin-bottom: 15px;
+        width: 75px;
+        border-radius: 20px;
+    }
+    #cart>#cartgrid {
+        display: inline-grid;
+        grid-template-rows:  auto auto auto;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    #cartbild{
+        width: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-size: 100px;
+    }
+    h1 {
+        color: #1e3d59;
+        text-align: center;
+        font-size: 45px;
+    }
+    #navbar{
+        display: inline-block;
+        position: sticky;
+        top: 20px;
+        background-color: white;
+        width: 350px;
+        height: 75px;
+        margin-bottom: 20px;   
+    }
+    #eisbutton{
+        background-color: #ffc13b;
+        color: #1e3d59;
+        font-size: small;
+        width: 75px;
+        height: 50px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+        border-width: 1px;
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 10px;  
+    }
+    #waffelbutton{
+        background-color: #ffc13b;
+        color: #1e3d59;
+        font-size: small;
+        width: 75px;
+        height: 50px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        border-radius: 20px;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #toppingbutton{
+        background-color: #ffc13b;
+        color: #1e3d59;
+        font-size: small;
+        width: 75px;
+        height: 50px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+        border-width: 1px;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #bestellenbutton{
+        background-color: #1e3d59;
+        color: #ffc13b;
+        font-size: small;
+        width: 75px;
+        height: 50px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+        border-width: 1px;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #eis {
+        display: inline-grid;
+        grid-template-rows:  auto auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+        grid-template-columns: auto auto;
+        text-align: center;
+        margin-top: 20px;
+        color: #2e3e52;
+    }
+    #waffeln{
+        display: inline-grid;
+        grid-template-rows:  auto auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+        grid-template-columns: auto auto;
+        text-align: center;
+        margin-top: 20px;
+        color: #2e3e52;
+    }
+    #topping{
+        display: inline-grid;
+        grid-template-rows:  auto auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+        grid-template-columns: auto auto;
+        text-align: center;
+        margin-top: 20px;
+        color: #2e3e52;
+    }
+    main{
+        border-radius: 50px;
+        width: 360px;
+        margin: auto;
+    }
+    #eisbild{
+        display: inline-block;
+        margin: 30px;
+        width: 100px;
+        background-color: white
+    }
+    #cart{
+        color: #1e3d59;
+        display: block;
+        width: 300px;
+        margin: auto;
+        background-color: white;
+        position: sticky;
+        top: 100px;
+        margin-bottom: 20px;
+        border: black;
+        border-style: solid;
+    }
+    .eisdiv input{
+        margin-bottom: 15px;
+        width: 75px;
+        border-radius: 20px;
+    }
+    #cart>#cartgrid {
+        display: inline-grid;
+        grid-template-rows:  auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    #cartbild{
+        width: 50px;
+    }
+}

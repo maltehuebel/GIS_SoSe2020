@@ -1,0 +1,98 @@
+[
+    {
+        "url": "bilder/eisbild1.png",
+        "name": "Erdbeereis",
+        "preis": 1,
+        "kategorie": "eis"
+    },
+    {
+        "url": "bilder/eisbild2.png",
+        "name": "Schokolade",
+        "preis": 1,
+        "kategorie": "eis"
+    },
+    {
+        "url": "bilder/eisbild3.png",
+        "name": "Vanille",
+        "preis": 1,
+        "kategorie": "eis"
+    },
+    {
+        "url": "bilder/eisbild4.png",
+        "name": "Banane",
+        "preis": 1,
+        "kategorie": "eis"
+    },
+    {
+        "url": "bilder/eisbild5.png",
+        "name": "Pistazie",
+        "preis": 1,
+        "kategorie": "eis"
+    },
+    {
+        "url": "bilder/eisbild6.png",
+        "name": "Haselnuss",
+        "preis": 1,
+        "kategorie": "eis"
+    },
+    {
+        "url": "bilder/eisbild7.png",
+        "name": "Mango",
+        "preis": 1,
+        "kategorie": "eis"
+    },
+    {
+        "url": "bilder/eisbild8.png",
+        "name": "Fruchtmix",
+        "preis": 1,
+        "kategorie": "eis"
+    },
+    {
+        "url": "bilder/waffelgroß.png",
+        "name": "Große Waffel",
+        "preis": 0,
+        "kategorie": "waffel"
+    },
+    {
+        "url": "bilder/waffelklein.png",
+        "name": "Kleine Waffel",
+        "preis": 0,
+        "kategorie": "waffel"
+    },
+    {
+        "url": "bilder/bechergroß.jpg",
+        "name": "Großer Becher",
+        "preis": 0,
+        "kategorie": "waffel"
+    },
+    {
+        "url": "bilder/becherklein.jpg",
+        "name": "Kleiner Becher",
+        "preis": 0,
+        "kategorie": "waffel"
+    },
+    {
+        "url": "bilder/topping1.jpg",
+        "name": "Zartbitter",
+        "preis": 1,
+        "kategorie": "topping"
+    },
+    {
+        "url": "bilder/topping2.jpg",
+        "name": "Karamel",
+        "preis": 1,
+        "kategorie": "topping"
+    },
+    {
+        "url": "bilder/topping3.jpg",
+        "name": "Weiße Schokolade",
+        "preis": 1,
+        "kategorie": "topping"
+    },
+    {
+        "url": "bilder/topping4.jpg",
+        "name": "Vollmilch",
+        "preis": 1,
+        "kategorie": "topping"
+    }
+]
