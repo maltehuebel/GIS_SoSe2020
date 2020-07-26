@@ -205,10 +205,10 @@ h1 {
     border-radius: 20px;
     font-size: medium;
 }
-.händlerbutton{
-    margin-right: 1700px;    
+.haendlerbutton{
+    margin-right: 1300px;    
 }
-#händlergrid{
+#haendlergrid{
     display: inline-grid;
     grid-template-rows:  auto auto auto;
     grid-row-gap: 40px;
@@ -217,22 +217,22 @@ h1 {
     margin-top: 50px;
     color: #2e3e52;
 }
-#händlergrid p{
+#haendlergrid p{
     font-weight: bold;
     margin-top: 0;
     color: #f5f0e1;
 }
-#händlergrid input {
+#haendlergrid input {
     width: 30px;
 }
-#händlerdiv{
+#haendlerdiv{
     background-color: #1e3d59;
     border: #2e3e52;
     border-style: solid;
     border-radius: 50px;
     box-shadow: 5px 5px 5px grey;
 }
-#händlerbild{
+#haendlerbild{
     display: inline-block;
     margin: 15px;
     width: 100px;
@@ -251,6 +251,9 @@ h1 {
     border-color: black;
     border-radius: 20px;
     font-size: medium;
+}
+#meme{
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px){

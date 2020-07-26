@@ -10,15 +10,15 @@ namespace Prüfungsaufgabe {
     function seitenaufbau(): void {
         for (let index: number = 0; index < eisSorten.length; index++) {
             //neues Div
-            let getDiv: HTMLElement = document.getElementById("händlergrid")!;
+            let getDiv: HTMLElement = document.getElementById("haendlergrid")!;
             let newDiv: HTMLElement = document.createElement("div");
             newDiv.setAttribute("class", "eisdiv");
-            newDiv.id = "händlerdiv" + index;
+            newDiv.id = "haendlerdiv" + index;
             getDiv.appendChild(newDiv);
             //neues Bild
             let newBild: HTMLElement = document.createElement("img");
             newBild.setAttribute("src", eisSorten[index].url);
-            newBild.id = "händlerbild";
+            newBild.id = "haendlerbild";
             newBild.innerHTML = eisSorten[index].url;
             newDiv.appendChild(newBild);
             //neuer Titel
@@ -39,13 +39,13 @@ namespace Prüfungsaufgabe {
             gesamtPreis += eisSorten[index].preis;
         }
         let gesPr: HTMLElement = document.createElement("h2");
-        gesPr.id = "händlerumsatz";
+        gesPr.id = "haendlerumsatz";
         gesPr.innerHTML = "Umsatz: " + gesamtPreis.toString() + "€";
         document.getElementById("umsatz")?.appendChild(gesPr);
         //Bestellung löschen
         function entfernen(this: Produkte, _event: Event): void {
             let index: string = (<HTMLInputElement>_event.target)?.getAttribute("index")!;
-            document.getElementById("händlergrid" + index)?.remove();
+            document.getElementById("haendlergrid" + index)?.remove();
             eisSorten.splice(parseInt(index), 1);
             localStorage.setItem("produkt", JSON.stringify(eisSorten));
             location.reload();
